@@ -1,2 +1,2 @@
 #!/bin/bash
-cat lists.txt | uniq | sort
+uniq < cat lists | sort
